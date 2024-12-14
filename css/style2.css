@@ -1,0 +1,165 @@
+/* Style global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1c1c1c;
+  }
+  
+  .container {
+    position: relative;
+    width: 400px;
+    padding: 30px;
+    background: #24232a;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(0deg, transparent, #000000, #000000);
+    transform-origin: bottom right;
+    animation: rotateBG 7s linear infinite;
+    z-index: -1;
+  }
+  
+  .container::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(0deg, transparent, #d803fe, #d803fe);
+    transform-origin: bottom right;
+    animation: rotateBG 7s linear infinite;
+    animation-delay: 3.5s;
+    z-index: -1;
+  }
+  
+  @keyframes rotateBG {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .form-box header {
+    text-align: center;
+    font-size: 2em;
+    color: #03fe78;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: 1px solid #03fe78;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-container .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #03fe78;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 15px 40px;
+    background: transparent;
+    border: 1px solid #03fe78;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #d803fe;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 15px;
+    background: #03fe78;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #d803fe;
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 10px;
+    color: #aaa;
+  }
+  
+  .links a {
+    color: #03fe78;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    color: #d803fe;
+  }
+  /* Styliser le bouton Login */
+.button {
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049; /* Vert plus foncé au survol */
+    transform: scale(1.05);
+  }
+  
+  /* Styliser Remember me et Forgot password */
+  .remember label,
+  .remember a {
+    color: #4CAF50; /* Vert */
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .remember a:hover {
+    text-decoration: underline;
+    color: #45a049; /* Vert plus foncé au survol */
+  }
+  
+  /* Styliser la case à cocher */
+  .check {
+    margin-right: 5px;
+  }
+  
+  

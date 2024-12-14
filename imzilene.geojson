@@ -1,0 +1,8 @@
+var imzilene = {
+"type": "FeatureCollection",
+"name": "imzilene",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR695", "glide_no": "EQ-2023-000166-MAR", "area_id": "06", "locality": "Imzilene", "map_type": "Grading" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -9.528899005999961, 31.188590735000048 ], [ -9.618478133999929, 31.188590735000048 ], [ -9.618730532999962, 31.26540226000003 ], [ -9.528899005999961, 31.265788529000076 ], [ -9.528899005999961, 31.188590735000048 ] ] ] ] } }
+]
+}

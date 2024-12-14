@@ -1,0 +1,9 @@
+var amizmiz =
+{
+"type": "FeatureCollection",
+"name": "amizmiz",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR695", "glide_no": "\tEQ-2023-000166-MAR", "area_id": "02", "locality": "Amizmiz", "map_type": "Grading" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -8.18981217399994, 31.185910327000045 ], [ -8.279391302999954, 31.185910327000045 ], [ -8.279643700999941, 31.262721852000027 ], [ -8.18981217399994, 31.263108120000027 ], [ -8.18981217399994, 31.185910327000045 ] ] ] ] } }
+]
+}

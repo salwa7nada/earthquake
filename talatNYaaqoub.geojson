@@ -1,0 +1,8 @@
+var talatNYaaqoub = {
+"type": "FeatureCollection",
+"name": "talat-NYaaqoub",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR695", "glide_no": "EQ-2023-000166-MAR", "area_id": "07", "locality": "Talat-NYaaqoub", "map_type": "Grading" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -8.141781854999977, 30.94330799100004 ], [ -8.231360983999934, 30.94330799100004 ], [ -8.231613381999978, 31.020119516000079 ], [ -8.141781854999977, 31.020505784000079 ], [ -8.141781854999977, 30.94330799100004 ] ] ] ] } }
+]
+}
